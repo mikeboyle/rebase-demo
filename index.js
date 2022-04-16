@@ -1,6 +1,4 @@
-export const greet = (name) => {
-  return `Hello, ${name}`;
-};
+import { greet } from './greet.js';
 
-greet('Bob');
-greet('Tina');
+console.log(greet('Bob'));
+console.log(greet('Tina'));
